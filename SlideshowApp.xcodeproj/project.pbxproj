@@ -14,6 +14,7 @@
 		EB8BBAE41F208934002A2121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8BBAE21F208934002A2121 /* LaunchScreen.storyboard */; };
 		EB8BBAEF1F208934002A2121 /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8BBAEE1F208934002A2121 /* SlideshowAppTests.swift */; };
 		EB8BBAFA1F208934002A2121 /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8BBAF91F208934002A2121 /* SlideshowAppUITests.swift */; };
+		EB8BBB081F20947A002A2121 /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8BBB071F20947A002A2121 /* SingleImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EB8BBAF51F208934002A2121 /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8BBAF91F208934002A2121 /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		EB8BBAFB1F208934002A2121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8BBB071F20947A002A2121 /* SingleImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EB8BBAE01F208934002A2121 /* Assets.xcassets */,
 				EB8BBAE21F208934002A2121 /* LaunchScreen.storyboard */,
 				EB8BBAE51F208934002A2121 /* Info.plist */,
+				EB8BBB071F20947A002A2121 /* SingleImageViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB8BBADC1F208934002A2121 /* ViewController.swift in Sources */,
+				EB8BBB081F20947A002A2121 /* SingleImageViewController.swift in Sources */,
 				EB8BBADA1F208934002A2121 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
