@@ -9,11 +9,15 @@
 import UIKit
 
 class SingleImageViewController: UIViewController {
-
+    @IBOutlet weak var imagePanel: UIImageView!
+    var image:UIImage? = UIImage(named:"first.PNG")
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        // 表示
+        if let image = self.image{
+            imagePanel.image = image
+        }
     }
 
     override func didReceiveMemoryWarning() {
